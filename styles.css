@@ -1,0 +1,173 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#productive{
+	background-color:#F8F8FE;
+}
+
+#productive a{
+	color:hsl(170, 45%, 43%);
+	text-decoration: underline; 
+}
+
+#ceoimg{
+	border-radius: 50%;
+}
+
+.ceoquote{
+	font-size: 0.85em;
+}
+
+.jumbotron{
+	background-color:hsl(238, 22%, 44%);
+	color: floralwhite;
+	margin-bottom: 0;
+	border-radius: 0%;
+}
+
+.navbar{
+	margin-top: 3%;
+}
+
+.navbar a{
+	color:black;
+}
+
+.navbar a:hover{
+	color:hsl(170, 45%, 43%);
+}
+
+.curve{
+	margin-top: 10%;
+}
+
+.card{
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+.icon1{
+	margin-bottom: 15px;
+}
+
+.icon2{
+	margin-bottom: 40px;
+}
+
+.footFylo{
+	margin-top:6%;
+	margin-bottom: 10px
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  background: hsl(243, 87%, 12%);
+  margin-right: 0.25px;
+}
+
+.illustration-1{
+	max-width: 550px;
+}
+
+.illustration-2{
+	max-width: 550px;
+}
+
+.contents{
+	margin-bottom: 25px;
+}
+
+.fyloNav{
+	margin-top: 10px;
+}
+
+.btn:hover,.btn:focus{
+	background-color:#66a3ff;
+	border-color: #66a3ff;
+}
+
+span{
+	margin-left: 10px;
+}
+
+footer{
+	background-color: hsl(243, 87%, 12%);
+	color:floralwhite;
+}
+
+footer a{
+	color:white;
+}
+
+footer li{
+	margin-bottom: 0.5em;
+}
+
+footer i{
+	margin-right: 10px;
+}
+
+footer a:hover{
+	color:hsl(170, 45%, 43%);
+	text-decoration: none;
+}
+
+@media (max-width: 767px){
+	.secureFiles{
+		text-align: center;
+        margin-top: 85%;
+	}
+	.stayProductive{
+		font-size: 1.2em;
+		text-align: center; 
+	}
+	.seeHow{
+		text-align: center; 
+	}
+	.illustration-1{
+    	position: absolute;
+    }
+	.illustration-2{
+    	position: absolute;
+    	margin-top: 5%
+    }
+    .jumbotron{
+    	text-align: center;
+    }
+    .neww{
+    	margin-top: 80%;
+    }
+	.socialIcons{
+	    margin: 0 auto;
+	    width: 45%;
+	}	    
+	.footFylo{
+		margin-top:10%;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 575px){
+	footer .container{
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 575px){
+	footer .container{
+		margin-left: 4%;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+	.ph{
+		font-size: 1.5vw;
+	}
+}
